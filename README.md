@@ -19,9 +19,13 @@ Water
 # Proposed structure
 
 Data Storage Layer: Common Crawl, AWS S3
+
 Data Ingestion Layer: Kafka
+
 Streaming Process: Spark streaming, Flink
+
 Bash Process: Spark 
+
 DataBase: Canssandra, Amazon Redshift
 
 ![](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-20%2012.11.47.png)
