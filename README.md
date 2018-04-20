@@ -18,4 +18,4 @@ Water
  
 # Proposed structure
 
-![alt text](Screenshot 2018-04-20 12.11.47.png)
+![](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-20%2012.11.47.png)
