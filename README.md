@@ -18,8 +18,6 @@ Water
  
 # Proposed structure
 
-Data Storage Layer: Common Crawl, AWS S3
-
 Data Ingestion Layer: Kafka
 
 Streaming Process: Spark streaming, Flink
