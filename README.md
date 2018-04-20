@@ -18,3 +18,4 @@ Water
  
 # Proposed structure
 
+![](insight-engineering-project-energy-consumption/Screenshot 2018-04-20 12.11.47.png)
