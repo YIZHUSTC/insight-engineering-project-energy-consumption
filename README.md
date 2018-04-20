@@ -16,7 +16,7 @@ Electricity (lighting, airconditioning)
 Gas
 Water
  
-# Proposed structure
+# Technologies
 
 Data Ingestion Layer: Kafka
 
@@ -25,5 +25,7 @@ Streaming Process: Spark streaming, Flink
 Bash Process: Spark 
 
 DataBase: Canssandra, Amazon Redshift
+
+# Proposed structure
 
 ![](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-20%2012.11.47.png)
