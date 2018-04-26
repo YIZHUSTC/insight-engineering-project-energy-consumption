@@ -1,0 +1,2 @@
+EC=sqlContext.read.format('csv').options(header='true', inferSchema='true').load('s3a://insightprojectsiyuguo/energycommercial/COMMERCIAL_LOAD_DATA_E_PLUS_OUTPUT.part1 (1)/USA_AK_Anchorage.Intl.AP.702730_TMY3/')
+EC=sqlContext.read.format('csv').options(header='true', inferSchema='true').load('s3a://insightprojectsiyuguo/energycommercial/COMMERCIAL_LOAD_DATA_E_PLUS_OUTPUT.part1 (1)/USA_AK_Anchorage.Intl.AP.702730_TMY3/RefBldgFullServiceRestaurantNew2004_v1.3_7.1_8A_USA_AK_FAIRBANKS.csv')
