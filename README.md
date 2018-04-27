@@ -27,7 +27,7 @@ DataBase: Canssandra, Amazon Redshift
 
 # Proposed structure
 
-![](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-20%2012.11.47.png)
+![](https://www.dropbox.com/s/y7o8czz4tz39ubt/Screenshot%202018-04-27%2009.59.13.png?dl=0)
 
 # What are the primary engineering challenges? 
 
