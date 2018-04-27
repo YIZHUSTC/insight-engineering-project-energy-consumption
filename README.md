@@ -28,3 +28,13 @@ DataBase: Canssandra, Amazon Redshift
 # Proposed structure
 
 ![](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-20%2012.11.47.png)
+
+# What are the primary engineering challenges? 
+
+As more and more buildings install smart meter, more data will be available. The data amount is one challenge. Also, the whole projects help bussiniss owners to evaluate and monitor their energy consumption, it is necessary to provides efficient query of historical data and comparison analysis data.
+
+# What are the (quantitative) specifications/constraints for this project?
+1. The processing time for data, to display the real-time status of energy consumption
+2. The efficiency to provide answers to queries
+
+
