@@ -38,4 +38,6 @@ EC = EC.withColumn("Total",EC["Electricity:Facility [kW](Hourly)"]+EC["Heating:E
 # Creat DataFrame to store the result
 # Total_Energy = spark.createDataFrame([("Electricity:Facility", a1), ("Heating:Electricity", a2)],["Cooling:Electricity", a3],["Electricity:Facility", a4],["CInteriorLights", a5],FloatType())
 
+ stations_df = EC.write.format("org.apache.spark.sql.cassandra").mode('append').save()
+
 
