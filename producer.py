@@ -8,8 +8,8 @@ class Producer(threading.Thread):
         daemon = True
 
         def run(self):
-            producer = KafkaProducer(bootstrap_servers='ec2-18-236-5-16.us-west-2.compute.amazonaws.com:9092')
-            bucket_name="insightprojecttest"
+            producer = KafkaProducer(bootstrap_servers=["18.236.5.16:9092","54.70.30.239:9092","54.70.225.14:9092"])
+            bucket_name="insightprojecttest2"
             bucket = self.read_s3(bucket_name)
             for json_obj in bucket.objects.all():
                     json_file = "s3://{0}/{1}".format(bucket_name, json_obj.key)
