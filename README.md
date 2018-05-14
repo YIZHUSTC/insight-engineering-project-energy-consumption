@@ -44,7 +44,22 @@ Tuning micro-batch time
 
 Spark-streaming allows us to set the time period of the micro batches. In this work, I changed the time periode and tested the system performance. At the beginning, it was found that for smaller incoming data stream (~ 1500 records/s), increasing the micro batch time doesn't influence the total processing time too much, and using longer micro batch time makes the processing more efficient. However, when there is larger incoming data stream coming (~ 5000 records/s), increasing the micro batch time dramatically influenced the total processing time (shown in the following figure).
 
+![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-13%2021.34.52.png)
+
 After investigating the processing time in detail, it was found that the map functions in the streaming process affected the processing time a lot when the incoming stream becomes larger. To solve this problem, I avoided using map functions and performed the data transforming when saving the data to Cassandra database. This effectively reduced the total processing time for longer micro batch time (indicated in the following figure). The total processing time decreased by 60% for the 20s batch.
+
+![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-13%2021.35.19.png)
+
+#Directory Structure
+Spark - PySpark code for performing calculations and saving to database
+
+Cassandra - CQL commands to set up keyspaces and tables in Cassandra
+
+figures - Images for this README
+
+flask - Code for web app
+
+Kafka- Code for kafka data ingestion
 
 
 
