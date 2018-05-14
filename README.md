@@ -38,7 +38,7 @@ DataBase: Canssandra (4 nodes)
 
 # Proposed structure
 
-![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/Screenshot%202018-04-27%2009.59.13.png)
+![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-07%2014.35.05.png)
 
 # Stream processing- Spark
 In this work, stream processing is acheived using Spark streaming. Spark streaming process the data by micro-batches, which is not "truly real-time processing". However, in this user case, the energy-consumption analysis results doesn't require truly real-time response, which allows a small latency. Also, processing the data by micro batches allows us to tune the computation peformance by changing the micro-batch time period, which can be quite useful for this project, since the platform is designed for huge-amount of energy consumption data ingestion and processing.
