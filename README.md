@@ -1,12 +1,14 @@
 # Ener-See
 
 In this project, a data pipline is constructed to monitor real-time energy consumption distribution of commercial buildings and generate alert.
-
-
-# Monitor and analyze the energy consumption of commercial buildings
+![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-13%2022.32.32.png)
 
 slides
 https://docs.google.com/presentation/d/1yb7b6tzQi1ox9iNdbhb3ild454aD2lf7Uc4EvD7u4vQ/edit#slide=id.p
+Link:
+http://ec2-52-13-146-195.us-west-2.compute.amazonaws.com/
+
+
 
 # User Case
 Advanced monitoring system is more and more widely applied in commercial buildings nowadays. In the near future, huge amount of data will be generated everyday from those buildings. If we can build a great platform and make good use of these data, our world will become more energy efficient. This project provides a data pipline to compare the detailed real-time energy consumption data of similar type of commercial buildings within the same area. Also, a real-time "alert" is genrated for those buildings which are cosuming much more nergies than similar type of buildings. This platform can effectively help improve energy efficiency, which can be very useful for the utility companoies and also the business owners.
