@@ -15,7 +15,7 @@ http://ec2-52-13-146-195.us-west-2.compute.amazonaws.com/
 # User Case
 Advanced monitoring system is more and more widely applied in commercial buildings nowadays. In the near future, huge amount of data will be generated everyday from those buildings. If we can build a great platform and make good use of these data, our world will become more energy efficient. This project provides a data pipline to compare the detailed real-time energy consumption data of similar type of commercial buildings within the same area. Also, a real-time "alert" is genrated for those buildings which are cosuming much more nergies than similar type of buildings. This platform can effectively help improve energy efficiency, which can be very useful for the utility companoies and also the business owners.
 
-![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-07%2014.35.05.png)
+
 
 # Data Set
 Commercial and Residential Hourly Load Profiles for all TMY3 Locations in the United States 
