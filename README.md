@@ -1,3 +1,7 @@
+# Ener-See
+
+In this project, a data pipline is constructed to monitor real-time energy consumption distribution of commercial buildings and generate alert.
+
 
 # Monitor and analyze the energy consumption of commercial buildings
 
