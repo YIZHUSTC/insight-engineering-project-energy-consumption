@@ -50,7 +50,8 @@ After investigating the processing time in detail, it was found that the map fun
 
 ![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-13%2021.35.19.png)
 
-#Directory Structure
+# Directory Structure
+
 Spark - PySpark code for performing calculations and saving to database
 
 Cassandra - CQL commands to set up keyspaces and tables in Cassandra
