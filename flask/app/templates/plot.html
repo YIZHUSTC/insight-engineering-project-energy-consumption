@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Plot</title>
+        <meta http-equiv="refresh" content="10" > 
+    </head>
+    <body>
+    	<h1>Real-time Energy Consumption Distribution</h1>
+        <img src="data:image/png;base64, {{ plot_url }}">
+
+        <title>Simple tables</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+        <div class="center">
+          <h1>Alert list</h1>
+          {% for table in tables %}
+            <h2>{{titles[loop.index]}}</h2>
+            {{ table|safe }}
+          {% endfor %}
+        </div>
+
+
+
+
+    </body>
+
+</html>
+
+
