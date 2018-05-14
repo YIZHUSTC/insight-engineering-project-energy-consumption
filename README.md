@@ -1,10 +1,12 @@
 # Ener-See
 
 In this project, a data pipline is constructed to monitor real-time energy consumption distribution of commercial buildings and generate alert.
+
 ![alt text](https://github.com/siyu1/insight-engineering-project-energy-consumption/blob/master/figures/Screenshot%202018-05-13%2022.32.32.png)
 
 slides
 https://docs.google.com/presentation/d/1yb7b6tzQi1ox9iNdbhb3ild454aD2lf7Uc4EvD7u4vQ/edit#slide=id.p
+
 Link:
 http://ec2-52-13-146-195.us-west-2.compute.amazonaws.com/
 
